@@ -751,13 +751,12 @@
   <!-- Scroll horizontal -->
   <div style="
     display:flex;
-    gap:5px;
     overflow-x:auto;
-    padding:8px;
     scroll-snap-type:x mandatory;
     -webkit-overflow-scrolling:touch;
     scrollbar-width:none;
-   display:grid; grid-template-columns:repeat(2,1fr); gap:5px;
+   display:grid; 
+   grid-template-columns:repeat(2,1fr); 
    margin:0 auto;
   ">
 
@@ -772,7 +771,7 @@
       padding:12px;
       scroll-snap-align:start;
      cursor:pointer;
-     onclick="ouvrirZoom(this.querySelector('img').src)
+     onclick="ouvrirZoom(this.querySelector('img').src)";
     ">
       <img src="temoignage1.png" alt="Témoignage 1"
         style="width:100%; border-radius:10px; object-fit:contain; background:#252525; max-height:380px; display:block;">
